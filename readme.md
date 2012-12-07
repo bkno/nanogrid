@@ -4,8 +4,11 @@ The intention of NanoGrid is to make the HTML and CSS markup as simple as possib
 
 ## HTML
 
+Example: one big column followed by two smaller ones:
+
     <div class="grid3 first">
-      6 columns</div>
+      6 columns
+    </div>
     <div class="grid3">
       3 columns
     </div>
