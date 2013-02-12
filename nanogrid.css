@@ -1,0 +1,25 @@
+/* 12 column nano grid */
+
+@media ( max-width : 767px ) {
+  .grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9, .grid10, .grid11, .grid12 {
+    width: 100%;
+  }
+}
+
+.grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9, .grid10, .grid11, .grid12 {
+  margin-left: 2%; display: block; float: left;
+}
+.grid1 { width: 6.5%; }
+.grid2 { width: 15.0%; }
+.grid3 { width: 23.5%; }
+.grid4 { width: 32.0%; }
+.grid5 { width: 40.5%; }
+.grid6 { width: 49.0%; }
+.grid7 { width: 57.5%; }
+.grid8 { width: 66.0%; }
+.grid9 { width: 74.5%; }
+.grid10 { width: 83.0%; }
+.grid11 { width: 91.5%; }
+.grid12 { width: 100%; }
+
+.first { margin-left: 0; }
