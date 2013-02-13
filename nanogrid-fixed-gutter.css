@@ -16,7 +16,7 @@
 .grid11 { width: 91.666%; }
 .grid12 { width: 100%; }
 
-.first { padding-left: 0; }
+.first { padding-left: 0; clear: left; }
 
 @media ( max-width : 979px ) {
   .grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9, .grid10, .grid11, .grid12 {
