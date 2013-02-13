@@ -1,4 +1,4 @@
-/* 12 column nano grid */
+/* 12 column nano grid - fluid grid, fluid gutter */
 
 @media ( max-width : 767px ) {
   .grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9, .grid10, .grid11, .grid12 {
