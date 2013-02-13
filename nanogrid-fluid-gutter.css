@@ -1,11 +1,5 @@
 /* 12 column nano grid - fluid grid, fluid gutter */
 
-@media ( max-width : 767px ) {
-  .grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9, .grid10, .grid11, .grid12 {
-    width: 100%;
-  }
-}
-
 .grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9, .grid10, .grid11, .grid12 {
   margin-left: 2%; display: block; float: left;
 }
@@ -23,3 +17,9 @@
 .grid12 { width: 100%; }
 
 .first { margin-left: 0; }
+
+@media ( max-width : 979px ) {
+  .grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9, .grid10, .grid11, .grid12 {
+    width: 100%;
+  }
+}
