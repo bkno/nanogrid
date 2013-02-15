@@ -29,7 +29,7 @@ Many grids come with a lot of code, I have aimed to cut almost all of it out. As
 
 Example: one big column followed by two smaller ones:
 
-    <div class="grid3 first">
+    <div class="grid3">
       6 columns
     </div>
     <div class="grid3">
@@ -38,3 +38,5 @@ Example: one big column followed by two smaller ones:
     <div class="grid3">
       3 columns
     </div>
+
+If you are faced with a situation in a responsive design where at smaller widths the floats may deviate from the 'row' you can use the class *left* on the grid element to force this element to be the first element in a 'row'.
