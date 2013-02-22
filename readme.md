@@ -23,7 +23,7 @@ If you nest grid elements, the 2% gutter is based on the width of the parent, so
 
 Example: one big column followed by two smaller ones:
 
-    <div class="grid3 first">
+    <div class="grid6 first">
       6 columns
     </div>
     <div class="grid3">
