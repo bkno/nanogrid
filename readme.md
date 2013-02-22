@@ -15,15 +15,9 @@ The intention of NanoGrid is to make the HTML and CSS markup as simple as possib
 
 ## Two implementations
 
-Many grids come with a lot of code, I have aimed to cut almost all of it out. As such there are some implications of less code, in that there are currently two versions:
+Many grids come with a lot of code, I have aimed to cut almost all of it out.
 
-1. nanogrid-fluid-gutter.css
-
-   This is my original version. The percentage numbers are nice and simple. If you nest grid elements, the 2% gutter is based on the width of the parent, so gutters are smaller on nested elements. On some designs this is not apparent, but on others it would be annoying.
-
-2. nanogrid-fixed-gutter.css
-
-   My revised implementation. This uses padding to set gutters at a fixed pixel width, to ensure gutters are not smaller on nested elements. For IE6/7 support of box-sizing use the [polyfill](https://github.com/Schepp/box-sizing-polyfill).
+If you nest grid elements, the 2% gutter is based on the width of the parent, so gutters are smaller on nested elements. Sometimes this is actually nice, on some designs this is not apparent, but if it is an issue with your design try to avoid nesting by keeping your HTML simple.
 
 ## HTML example
 
