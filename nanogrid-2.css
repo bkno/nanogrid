@@ -1,18 +1,18 @@
-/* 12 column nanogrid - fluid grid, fluid gutter */
+/* 12 column nanogrid - fluid grid, fluid 2% gutter */
 
 .grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9, .grid10, .grid11, .grid12 {
   margin-left: 2%; display: inline; float: left;
 }
 .grid1 { width: 6.5%; }
-.grid2 { width: 15.0%; }
+.grid2 { width: 15%; }
 .grid3 { width: 23.5%; }
-.grid4 { width: 32.0%; }
+.grid4 { width: 32%; }
 .grid5 { width: 40.5%; }
-.grid6 { width: 49.0%; }
+.grid6 { width: 49%; }
 .grid7 { width: 57.5%; }
-.grid8 { width: 66.0%; }
+.grid8 { width: 66%; }
 .grid9 { width: 74.5%; }
-.grid10 { width: 83.0%; }
+.grid10 { width: 83%; }
 .grid11 { width: 91.5%; }
 .grid12 { width: 100%; }
 
