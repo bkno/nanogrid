@@ -1,7 +1,7 @@
 /* 12 column nanogrid - fluid grid, fluid gutter */
 
 .grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9, .grid10, .grid11, .grid12 {
-  margin-left: 2%; display: block; float: left;
+  margin-left: 2%; display: inline; float: left;
 }
 .grid1 { width: 6.5%; }
 .grid2 { width: 15.0%; }
