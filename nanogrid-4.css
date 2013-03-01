@@ -3,15 +3,23 @@
 .grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9, .grid10, .grid11, .grid12 {
   margin-left: 4%; display: inline; float: left;
 }
-.grid1 { width: 4.5%; }
-.grid2 { width: 13.0%; }
-.grid3 { width: 21.5%; }
-.grid4 { width: 30.0%; }
-.grid5 { width: 38.5%; }
-.grid6 { width: 47.0%; }
-.grid7 { width: 55.5%; }
-.grid8 { width: 64.0%; }
-.grid9 { width: 72.5%; }
-.grid10 { width: 81.0%; }
-.grid11 { width: 89.5%; }
-.grid12 { width: 98%; }
+.grid1 { width: 4.666666666666667%; }
+.grid2 { width: 13.333333333333334%; }
+.grid3 { width: 22%; }
+.grid4 { width: 30.666666666666668%; }
+.grid5 { width: 39.333333333333336%; }
+.grid6 { width: 48%; }
+.grid7 { width: 56.66666666666667%; }
+.grid8 { width: 65.33333333333334%; }
+.grid9 { width: 74%; }
+.grid10 { width: 82.66666666666667%; }
+.grid11 { width: 91.33333333333334%; }
+.grid12 { width: 100%; }
+
+.first { margin-left: 0; clear: left; }
+
+@media ( max-width: 979px ) {
+  .grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9, .grid10, .grid11, .grid12 {
+    width: 100%; margin-left: 0;
+  }
+}
