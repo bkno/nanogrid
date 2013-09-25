@@ -1,0 +1,30 @@
+.grid { 
+	width: 960px; /* Fluid up until this point */
+	margin: 0 auto; /* Center grid on page */
+}
+.row, .full, .wide, .thin, .half, .third, .quad { /* Our row and column elements */
+	margin-right: 2%; /* The gap between columns */
+	display: inline; /* IE6 */
+	min-height: 1px; /* Ensures layout remains in tact even if a column is empty */
+	float: left;
+}
+.row { /* IE 6-8 (VERIFY THIS) */
+	width: 98%; /* A row is full width, with a gutter width substracted */
+	margin-left: 2%; /* Gutter to the left of the row */
+	margin-right: 0; /* Override the 2% applied to other elements */
+	clear: both; /* Older versions of IE need the row element to enforce clearing */
+}
+.full { width: 98%; } /* Full width column */
+.wide { width: 62%; } /* Primary content column */
+.thin { width: 34%; }  /* Secondary narrower column */
+.half { width: 48%; } /* Two columns to a row */
+.third { width: 31.333% } /* Three columns to a row */
+.quarter { width: 23%; } /* Four columns to a row */
+
+@media ( max-width: 1040px ) { /* Breakpoint where width becomes fluid */
+    .grid { width: auto; } /* Layout becomes fluid */
+}
+
+@media ( max-width: 668px ) { /* Breakpoint where we switch to single column */
+    .row, .wide, .thin, .half, .full, .third, .quarter { width: 98%; } /* Full width minus margin */
+}
